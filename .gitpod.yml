@@ -1,5 +1,4 @@
-image:
-  file: .gitpod.Dockerfile
+image: mikebarkmin/gitpod-workspace-full-vnc-java-ipad
 
 ports:
   - port: 6080
