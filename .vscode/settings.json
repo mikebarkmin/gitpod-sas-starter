@@ -1,0 +1,19 @@
+{
+    "java.project.referencedLibraries": [
+        "+libs/*"
+    ],
+    "java.inlayHints.parameterNames.exclusions": [],
+    "java.completion.filteredTypes": [
+        "java.*",
+        "javax.*",
+        "com.azul.*",
+        "org.w3c.*",
+        "javafx.*",
+        "java.awt.*",
+        "com.sun.*",
+        "sun.*",
+        "jdk.*",
+        "org.graalvm.*",
+        "io.micrometer.shaded.*"
+    ]
+}
