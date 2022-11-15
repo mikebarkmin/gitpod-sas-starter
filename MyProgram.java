@@ -1,3 +1,5 @@
+import java.awt.Color;
+
 import sas.*;
 
 class MyProgram {
@@ -12,6 +14,12 @@ class MyProgram {
     while(true) {
       rechteck.turn(1);
       ansicht.wait(100);
+
+      if(ansicht.keyUpPressed()) {
+        rechteck.setColor(Color.RED);
+      } else if (ansicht.keyDownPressed()) {
+        rechteck.setColor(Color.BLUE);
+      }
     }
   }
 }
